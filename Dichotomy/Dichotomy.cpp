@@ -13,7 +13,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	double a, b, c = 0;
-	double e = 0.001;
+	double e = 0.00001;
 	cin >> a >> b;
 	while (b - a > e) {
 		c = (a + b) / 2;
@@ -26,4 +26,5 @@ int main()
 		cout << c << endl;
 	}
 	cout << "Ваш итоговый корень равен: " << c << endl;
+	return 0;
 }
